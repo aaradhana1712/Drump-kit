@@ -1,0 +1,61 @@
+html{
+    font-size: 10;
+    background: url(drumpimage.avif) bottom center;
+    background-size: cover;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.keys{
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    /* justify-content: space-evenly;
+     */
+     justify-content: center;
+}
+.key{
+    border: .4rem solid rgba(0,0,0,0.24);
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10%;
+    height: 80%;
+    text-align: center;
+    color: white;
+    background: rgba(58, 53, 53, 0.4);
+}
+.key:hover{
+    border-color: #ffc600;  
+    /* border-right:#ffc600 ; */
+}
+/* .key:hover{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 rem #ffc600;
+} */
+kbd {
+    display: block;
+    font-size: 4rem;
+
+
+}
+span{
+    font-size: 1
+    rem;
+    color: #ffc600;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #6c22d4;
+    box-shadow: 0 0 1rem #0638cf;
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="keys">
+    <button data-key="65" class="key">A<br><span class="sound">CLAP</span></button>
+    <button data-key="83" class="key">S<br> <span class="sound">HIHAT</span></button>
+    <button data-key="68" class="key">D <br> <span class="sound">KICK</span></button>
+    <button data-key="70" class="key">F<br><span class="sound">OPENHAT</span></button>
+    <button data-key="71" class="key">G<br> <span class="sound">BOOM</span></button>
+    <button data-key="72" class="key">H<br><span class="sound">RIDE</span></button>
+    <button data-key="74" class="key">J<br><span class="sound">SNARE</span></button>
+    <button data-key="75" class="key">K<br><span class="sound">TOM</span></button>
+    <button data-key="76" class="key">L<br><span class="sound">TINK</span></button>
+  </div>
+  <audio data-key="65" src="sounds/soundsclap.wav"></audio>
+  <audio data-key="83" src="sounds/soundshithat.mp3"></audio>
+  <audio data-key="68" src="sounds/soundskick.wav"></audio>
+  <audio data-key="70" src="sounds/soundopenhat.mp3"></audio>
+  <audio data-key="71" src="sounds/soundsboom.mp3"></audio>
+  <audio data-key="72" src="sounds/soundsride.mp3"></audio>
+  <audio data-key="74" src="sounds/soundopenhat.mp3"></audio>
+  <audio data-key="75" src="sounds/soundstom.mp3"></audio>
+  <audio data-key="76" src="sounds/soundstink.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
